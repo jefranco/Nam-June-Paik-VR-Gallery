@@ -23,7 +23,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlassDirt_Mat
+  m_Name: DarkGlass
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -269,7 +269,7 @@ Material:
     - _RenderQueueType: 5
     - _RequireSplitLighting: 0
     - _SSRefractionProjectionModel: 0
-    - _Smoothness: 0.877
+    - _Smoothness: 0.918
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -316,9 +316,9 @@ Material:
     - Color_DCF1FFF3: {r: 0, g: 0, b: 0, a: 0.2}
     - Vector2_5A851886: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_793BAC4B: {r: 10, g: 10, b: 0, a: 0}
-    - _BaseColor: {r: 0.19811317, g: 0.19811317, b: 0.19811317, a: 0.8627451}
+    - _BaseColor: {r: 0.20754719, g: 0.20167321, b: 0.20167321, a: 0.8392157}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.19811314, g: 0.19811314, b: 0.19811314, a: 0.8627451}
+    - _Color: {r: 0.20754716, g: 0.20167318, b: 0.20167318, a: 0.8392157}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
