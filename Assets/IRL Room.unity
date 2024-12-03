@@ -13389,7 +13389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d05920c8855784741ac95e4e6f9260a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInSec: 5
+  timeInSec: 100000
   clockText: {fileID: 636854629}
   endMsg: {fileID: 35570673}
   irlRoom: {fileID: 604253122}
