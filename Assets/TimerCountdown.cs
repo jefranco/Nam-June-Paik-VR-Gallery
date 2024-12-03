@@ -24,6 +24,8 @@ public class TimerCountdown : MonoBehaviour
 
     private bool isFading = false;
 
+    public bool gameHasEnded = false;
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -93,6 +95,8 @@ public class TimerCountdown : MonoBehaviour
         //do your stuff here.
         endMsg.SetActive(true);
         //StartCoroutine(FadeIn());
+
+        gameHasEnded = true;
 
         StartFadeIn();
         
