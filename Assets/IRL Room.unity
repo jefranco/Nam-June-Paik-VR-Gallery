@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ndiName: FLEMMINGS-MBP (flvideo)
   _targetTexture: {fileID: 8400000, guid: f5be54105c2f7a842917df54553e8f73, type: 2}
-  _targetRenderer: {fileID: 0}
+  _targetRenderer: {fileID: 1703200364}
   _targetMaterialProperty: _BaseColorMap
   _resources: {fileID: 11400000, guid: 69304b86950074db7ba8caba75214004, type: 2}
 --- !u!4 &15182642
@@ -7404,14 +7404,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466773711}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7711399, z: -0, w: 0.63666576}
-  m_LocalPosition: {x: -0.263, y: 0.39, z: -3.341}
+  m_LocalRotation: {x: -0, y: 0.64216864, z: -0, w: 0.7665634}
+  m_LocalPosition: {x: -0.233, y: 0.39, z: -2.116}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1721288948}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -100.913, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 79.907, z: 0}
 --- !u!1 &467845293
 GameObject:
   m_ObjectHideFlags: 0
@@ -10582,8 +10582,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745804206}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000018798472, y: 0.8239549, z: 0.0000017398378, w: -0.56665534}
-  m_LocalPosition: {x: 0.56039673, y: 0, z: -0.22645652}
+  m_LocalRotation: {x: 0.0000025031393, y: -0.007893055, z: 0.00000054328075, w: 0.9999689}
+  m_LocalPosition: {x: 0.5603969, y: 0, z: -0.22645706}
   m_LocalScale: {x: 0.23396, y: 0.23396, z: 0.23396}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10592,7 +10592,7 @@ Transform:
   - {fileID: 1073078155}
   - {fileID: 35570674}
   m_Father: {fileID: 1721288948}
-  m_LocalEulerAnglesHint: {x: 0, y: 249.035, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.904, z: 0}
 --- !u!114 &745804208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13389,7 +13389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d05920c8855784741ac95e4e6f9260a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInSec: 60
+  timeInSec: 12000
   clockText: {fileID: 636854629}
   endMsg: {fileID: 35570673}
   irlRoom: {fileID: 604253122}
@@ -14712,7 +14712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1073078155
 Transform:
   m_ObjectHideFlags: 0
@@ -16516,8 +16516,8 @@ Transform:
   m_GameObject: {fileID: 1266147617}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.11099358, z: -0, w: 0.99382114}
-  m_LocalPosition: {x: -1.4171, y: 2.1242, z: -0.70105}
-  m_LocalScale: {x: 2.2002747, y: 3.905865, z: 2.3894982}
+  m_LocalPosition: {x: -1.661, y: 1.481, z: -0.734}
+  m_LocalScale: {x: 1.3217361, y: 2.3463082, z: 1.4354054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
