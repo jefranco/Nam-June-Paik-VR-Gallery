@@ -13,13 +13,16 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
+  - _ENABLE_FOG_ON_TRANSPARENT
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2225
+  m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
+    RenderType: Transparent
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
@@ -31,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_75234e64d8d74583bd442975e49b1b99:
-        m_Texture: {fileID: 2800000, guid: 6cf9942f74bb2794f94bae96bc88683d, type: 3}
+        m_Texture: {fileID: 2800000, guid: be4ad3b6d9061544d9f8695beb025619, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_d048c5c09b1246a7bb4f4854a29aac69:
@@ -39,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_f5cde98bb612489cb401448024b3d077:
-        m_Texture: {fileID: 2800000, guid: afcc8f70bbf41b440a3e180004fa0428, type: 3}
+        m_Texture: {fileID: 2800000, guid: 37f38e7050b320748b86f45dd1ac5d60, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -149,11 +152,11 @@ Material:
     m_Ints: []
     m_Floats:
     - Boolean_ebdbf4f311404f5fb2cd2b6927a304c1: 0
-    - Vector1_07c93c7e34df4237b5dd57255d7f857a: 0.47
-    - Vector1_3849afd7c2eb484893a68ec694cc75b3: 1.71
+    - Vector1_07c93c7e34df4237b5dd57255d7f857a: 0.2
+    - Vector1_3849afd7c2eb484893a68ec694cc75b3: 0.1
     - Vector1_4fa7de5de5304ba799341f5b9bbbf2c0: 0.5
     - Vector1_6f56a0970372485390c6587863c2374e: -3.5
-    - Vector1_7ab1e13367ff4c17b0a4403edd3d9450: 0.166
+    - Vector1_7ab1e13367ff4c17b0a4403edd3d9450: 0.1
     - Vector1_a3027f23b37c4da89592d406468d7aa8: 1
     - Vector1_c0da6a80189144e5a45df6c62b281d57: 1
     - Vector1_d70d07d7ef17405a961168abe8e24a3a: 10
@@ -167,7 +170,7 @@ Material:
     - _AlphaCutoffPostpass: 0.5
     - _AlphaCutoffPrepass: 0.5
     - _AlphaCutoffShadow: 0.5
-    - _AlphaDstBlend: 0
+    - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
@@ -190,8 +193,8 @@ Material:
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
-    - _DstBlend: 0
-    - _DstBlend2: 0
+    - _DstBlend: 10
+    - _DstBlend2: 10
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -233,7 +236,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _RenderQueueType: 1
+    - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
@@ -243,10 +246,10 @@ Material:
     - _SpecularOcclusionMode: 1
     - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 8
+    - _StencilRefDepth: 0
     - _StencilRefDistortionVec: 4
-    - _StencilRefGBuffer: 10
-    - _StencilRefMV: 40
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 32
     - _StencilWriteMask: 6
     - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
@@ -254,7 +257,7 @@ Material:
     - _StencilWriteMaskMV: 41
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
-    - _SurfaceType: 0
+    - _SurfaceType: 1
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
@@ -271,13 +274,13 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
-    - Color_6a9a916e2c84442984edc20c082efe79: {r: 0.019607842, g: 0.35475028, b: 1, a: 0.68235296}
-    - Color_c9a840f2115c4802ba54d713194f761d: {r: 1, g: 0.046156496, b: 0.013207495, a: 0.9882353}
+    - Color_6a9a916e2c84442984edc20c082efe79: {r: 0, g: 0.38159987, b: 0.50980395, a: 0.68235296}
+    - Color_c9a840f2115c4802ba54d713194f761d: {r: 0.15294114, g: 0.2078431, b: 0.34117645, a: 0.9882353}
     - Vector2_130994fa54a3486dacf33287c0070f7f: {r: 10, g: 10, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
